@@ -1,0 +1,166 @@
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 15px;
+}
+  #center {
+    text-align: center;
+    }
+  
+  #end {
+    text-align: end;
+  }
+
+  p {color: rgb(88, 20, 245);
+    font-size: 3vw;
+    font-weight: bold;
+    margin-bottom: 1em; /* adds 1 unit of spacing after each paragraph */
+  }
+
+  div {
+    margin-bottom: 1em; /* adds 2 units of spacing after each div */
+    /* background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px; */
+  }
+
+  a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(10, 10, 10, 0.89);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(240, 11, 11);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+
+  body{
+      background-color: hsla(168, 56%, 98%, 0.945);
+      margin: 1px;
+      
+      font-family: Arial;
+      color: rgb(16, 16, 16);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 1px;
+      background-image: url('/img/stone.png');
+
+      }
+
+  #inline-example {
+    display: inline;
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    height: 20px;
+    width: 20px;
+  }
+  
+  #block-example {
+    display: block;
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+  }
+  
+  #inline-block-example {
+    display: inline-block;
+    background-color: rgb(229, 253, 123);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+  }
+
+  #box {
+      display: flex;
+      flex-direction: row; justify-content:flex-start;
+      width: 600px;
+      height: 600px;
+      border: 1px solid black
+      }
+
+  .item {
+      border: 1px solid red;
+      height: min-content;
+      padding: 10px;
+        }
+        
+  .city {
+      background-color: tomato;
+      color: rgb(63, 8, 246);
+      border: 2px solid black;
+      font-size: 3vw;
+      margin: 20px;
+      padding: 20px;
+        }
+  
+  ul.topnav {
+          list-style-type: none;
+          margin: auto;
+          padding: 0;
+          overflow: hidden;
+          background-color: #746c6d;
+          text-align: center;
+        }
+
+        .topnav{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+        
+  ul.topnav li {
+                float: left;
+                text-align: center;}
+        
+  ul.topnav li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: center;
+        }
+        
+  ul.topnav li a:hover:not(.active) {background-color: #6509f8;}
+        
+  ul.topnav li a.active {background-color: #04AA6D;}
+        
+  ul.topnav li.right {float: right;}
+        
+        @media screen and (max-width: 600px) {
+          ul.topnav li.right, 
+          ul.topnav li {float: none;}
+        }
+        
