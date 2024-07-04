@@ -9,7 +9,7 @@
 }
   #center {
     text-align: center;
-    }
+  }
   
   #end {
     text-align: end;
@@ -60,7 +60,7 @@
   }
 
   body{
-      background-image: url("/img/stone.png");
+      background-image: url('img/stone.png');
       background-color: hsla(168, 56%, 98%, 0.945);
       margin: 1px;
       
@@ -70,9 +70,7 @@
       font-weight: 400;
       line-height: 1;
       letter-spacing: 1px;
-      
-
-      }
+  }
 
   #inline-example {
     display: inline;
