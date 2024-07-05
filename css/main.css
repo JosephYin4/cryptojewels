@@ -60,7 +60,7 @@
   }
 
   body{
-      background-image: url("/img/stone.png");
+      
       background-color: hsla(168, 56%, 98%, 0.945);
       margin: 1px;
       
@@ -70,7 +70,8 @@
       font-weight: 400;
       line-height: 1;
       letter-spacing: 1px;
-  }
+      background-image: url("/img/stone.png");
+      }
 
   #inline-example {
     display: inline;
