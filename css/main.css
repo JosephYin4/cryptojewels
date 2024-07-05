@@ -60,7 +60,7 @@
   }
 
   body{
-      background-image: url('img/stone.png');
+      background-image: url("/img/stone.png");
       background-color: hsla(168, 56%, 98%, 0.945);
       margin: 1px;
       
